@@ -2,7 +2,6 @@ import Login from './Components/Login';
 import SignUp from './Components/Signup';
 import Main from './Dasboard/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Dasboard/Home';
 import Add from './Dasboard/Add';
 import Getall from './Dasboard/Getall';
 

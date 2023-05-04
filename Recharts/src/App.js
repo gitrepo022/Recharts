@@ -1,5 +1,3 @@
-
-
 import Login from './Components/Login';
 import SignUp from './Components/Signup';
 import Main from './Dasboard/Main';
@@ -15,7 +13,6 @@ function App() {
         <Routes>
         <Route exact path='/' element={<SignUp/>} />
         <Route path='/Login' element={<Login/>} />
-        <Route path='/Home' element={<Home />} />
         <Route path='/Add' element={<Add/>} />
         <Route path='/Getall' element={<Getall/>} />
         <Route path='/Main' element={<Main/>} />
